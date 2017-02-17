@@ -1,6 +1,6 @@
 # IrubyHelpers
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/iruby_helpers`. To experiment with that code, run `bin/console` for an interactive prompt.
+Some helper functions to help make iruby a little easier to use. 
 
 TODO: Delete this and the text above, and describe your gem
 
@@ -22,7 +22,14 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Right now, there is just a couple functions that help simplify user input/output
+
+```ruby
+
+user_input = gets_prompt("Enter a value")
+puts_prompt "You entered: #{user_input}"
+
+```
 
 ## Development
 
